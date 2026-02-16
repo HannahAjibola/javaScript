@@ -14,10 +14,10 @@ let students = {
     grade: "A"
 }
 
-person.school = "first baptist academy"
-person.grade = "B"
+student.school = "first baptist academy"
+student.grade = "B"
 delete students.age
-console.log(person.grade)
+console.log(student.grade)
 console.log(Object.keys(students))
 console.log(Object.values(students))
 
